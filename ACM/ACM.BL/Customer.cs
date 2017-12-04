@@ -8,6 +8,9 @@ namespace ACM.BL
 {
     public class Customer
     {
+        // member belongs to the type itself, rather than the instance
+        public static int InstanceCount { get; set; }
+
         private string lastName;
         public string LastName
         {
