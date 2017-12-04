@@ -52,6 +52,20 @@ namespace ACM.BL
             }
         }
 
+        // Constructor - no params = default
+        public Customer()
+        {
+
+        }
+
+        // Consructor - with params 
+        public Customer(int customerId)
+        {
+            // this means the instance of the class
+            this.CustomerId = customerId;
+        }
+
+
         // Retrieve one customer
         public Customer Retrieve (int customerid)
         {
