@@ -1,0 +1,8 @@
+D:\Personal Development\OOP Fundamentals In CSharp\ACM\ACM.BLTest\bin\Debug\ACM.BLTest.dll
+D:\Personal Development\OOP Fundamentals In CSharp\ACM\ACM.BLTest\bin\Debug\ACM.BLTest.pdb
+D:\Personal Development\OOP Fundamentals In CSharp\ACM\ACM.BLTest\bin\Debug\ACM.BL.dll
+D:\Personal Development\OOP Fundamentals In CSharp\ACM\ACM.BLTest\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+D:\Personal Development\OOP Fundamentals In CSharp\ACM\ACM.BLTest\bin\Debug\ACM.BL.pdb
+D:\Personal Development\OOP Fundamentals In CSharp\ACM\ACM.BLTest\obj\Debug\ACM.BLTest.csprojResolveAssemblyReference.cache
+D:\Personal Development\OOP Fundamentals In CSharp\ACM\ACM.BLTest\obj\Debug\ACM.BLTest.dll
+D:\Personal Development\OOP Fundamentals In CSharp\ACM\ACM.BLTest\obj\Debug\ACM.BLTest.pdb
