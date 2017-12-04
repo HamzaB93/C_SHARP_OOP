@@ -52,5 +52,37 @@ namespace ACM.BL
             }
         }
 
+        // Retrieve one customer
+        public Customer Retrieve (int customerid)
+        {
+            return new Customer();
+        }
+
+        // Retrieve a list of customers
+        public List<Customer> Retireve()
+        {
+            return new List<Customer>();
+        }
+
+        // saves the current customer
+        public bool Save()
+        {
+            return true;
+        }
+
+        // validate to say thet the last name and email are required
+        public bool Validate()
+        {
+            var isValid = true;
+
+            if (string.IsNullOrWhiteSpace(LastName))
+                isValid = false;
+            if (string.IsNullOrWhiteSpace(EmailAddress))
+                isValid = false; 
+
+            return isValid;
+        } 
+
+
     }
 }

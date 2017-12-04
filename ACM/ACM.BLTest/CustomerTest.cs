@@ -82,8 +82,58 @@ namespace ACM.BLTest
 
             // Assert
             Assert.AreEqual(3, Customer.InstanceCount);
+        }
 
+        // Test for valid last name and email
+        [TestMethod]
+        public void ValidateValid()
+        {
+            // Arrange
+            var customer = new Customer();
+            customer.LastName = "Baggins";
+            customer.EmailAddress = "fbaggins@precious.me";
 
+            var expected = true;
+
+            // Act
+            var actual = customer.Validate();
+
+            // Assert
+            Assert.AreEqual(expected, actual);
+        }
+
+        // Test for invalid, with no last name
+        [TestMethod]
+        public void ValidateMissingLastName()
+        {
+            // Arrange
+            var customer = new Customer();
+            customer.EmailAddress = "fbaggins@precious.me";
+
+            var expected = false;
+
+            // Act
+            var actual = customer.Validate();
+
+            // Assert
+            Assert.AreEqual(expected, actual);
+        }
+
+        // Test for invalid, no email
+        [TestMethod]
+        public void ValidateMissingEmail()
+        {
+            // Arrange
+            var customer = new Customer();
+            customer.LastName = "Baggins";
+
+            var expected = false;
+
+            // Act
+            var actual = customer.Validate();
+
+            // Assert
+            Assert.AreEqual(expected, actual);
         }
     }
 }
