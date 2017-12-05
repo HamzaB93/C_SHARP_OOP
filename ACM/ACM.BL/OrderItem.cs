@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ACM.BL
 {
-    class OrderItem
+    public class OrderItem
     {
         // Properties
         public int OrderItemId { get; private set; }
@@ -26,16 +26,6 @@ namespace ACM.BL
         }
 
         // Methods
-        public OrderItem Retreive (int orderItemId)
-        {
-            return new OrderItem();
-        }
-
-        public bool Save()
-        {
-            return true;
-        }
-
         public bool Validate()
         {
             var isValid = true;
