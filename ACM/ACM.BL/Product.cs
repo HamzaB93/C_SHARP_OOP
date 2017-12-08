@@ -9,7 +9,6 @@ namespace ACM.BL
     public class Product
     {
         // properties
-        // 
         public Decimal? CurrentPrice { get; set; }
         public int ProductId { get; private set; }
         public string ProductDescription { get; set; }

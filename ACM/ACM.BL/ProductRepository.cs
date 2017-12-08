@@ -11,10 +11,9 @@ namespace ACM.BL
         // Retrive one product - Temp hard coding for testing
         public Product Retrieve (int productId)
         {
-            // Instance of a product
+            // Collaboration
             Product product = new Product(productId);
 
-            // Temp hard coding properties
             if (productId == 2 )
             {
                 product.ProductName = "Sunflowers";
@@ -24,7 +23,8 @@ namespace ACM.BL
             return product;
         }
 
-        public bool Save()
+        // Save a product
+        public bool Save(Product product)
         {
             return true;
         }

@@ -11,6 +11,7 @@ namespace ACM.BL
         // Retreive an order, temp hard coding for testing
         public Order Retreive(int orderItemId)
         {
+            // Collaboration 
             Order order = new Order(orderItemId);
 
             if (orderItemId == 10)
@@ -21,7 +22,7 @@ namespace ACM.BL
             return order;
         }
 
-        public bool Save()
+        public bool Save(Order order)
         {
             return true;
         }

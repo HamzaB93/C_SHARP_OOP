@@ -12,6 +12,8 @@ namespace ACM.BL
         public Customer Retrieve(int customerId)
         {
             // New instance of a customer, passing id because the setter is in the constructor
+
+            // Collaboration > CustomerRepository uses a Customer instance
             Customer customer = new Customer(customerId);
 
             // Temp - returning hard coded customer details
@@ -31,7 +33,7 @@ namespace ACM.BL
         }
 
         // saves the current customer
-        public bool Save()
+        public bool Save(Customer customer)
         {
             return true;
         }
