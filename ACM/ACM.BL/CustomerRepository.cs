@@ -8,13 +8,22 @@ namespace ACM.BL
 {
     public class CustomerRepository
     {
+        private AddressRepository addressRepository { get; set; }
+
+        public CustomerRepository()
+        {
+            addressRepository = new AddressRepository();
+        }
+
         // Retrieve one customer - Hard coding for testing purposes
         public Customer Retrieve(int customerId)
         {
             // New instance of a customer, passing id because the setter is in the constructor
 
-            // Collaboration > CustomerRepository uses a Customer instance
+            // Collaboration > CustomerRepository uses a Customer instance 
             Customer customer = new Customer(customerId);
+            // Gettiung the list of address from the address repostory via collaboration  
+            customer.AddressList = addressRepository.RetrieveByCustomerId((customerId)).ToList();
 
             // Temp - returning hard coded customer details
             if (customerId == 1)

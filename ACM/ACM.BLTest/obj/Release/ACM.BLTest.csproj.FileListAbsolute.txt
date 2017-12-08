@@ -1,0 +1,7 @@
+D:\Personal Development\OOP Fundamentals In CSharp\ACM\ACM.BLTest\bin\Release\ACM.BLTest.dll
+D:\Personal Development\OOP Fundamentals In CSharp\ACM\ACM.BLTest\bin\Release\ACM.BLTest.pdb
+D:\Personal Development\OOP Fundamentals In CSharp\ACM\ACM.BLTest\bin\Release\ACM.BL.dll
+D:\Personal Development\OOP Fundamentals In CSharp\ACM\ACM.BLTest\bin\Release\ACM.BL.pdb
+D:\Personal Development\OOP Fundamentals In CSharp\ACM\ACM.BLTest\obj\Release\ACM.BLTest.csprojResolveAssemblyReference.cache
+D:\Personal Development\OOP Fundamentals In CSharp\ACM\ACM.BLTest\obj\Release\ACM.BLTest.dll
+D:\Personal Development\OOP Fundamentals In CSharp\ACM\ACM.BLTest\obj\Release\ACM.BLTest.pdb
