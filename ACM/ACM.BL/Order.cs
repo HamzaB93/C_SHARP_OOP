@@ -11,6 +11,10 @@ namespace ACM.BL
         // Properties
         public DateTimeOffset? OrderDate { get; set; }
         public int OrderId { get; private set; }
+        // Composition
+        public List<OrderItem> orderItems { get; set; } 
+        public int CustomerId { get; set; } // Doesnt have to directly reference a customer as a property
+        public int ShippingAddressId { get; set; } // Doesnt have to directly reference a address as a property
 
         // Constructors
 
