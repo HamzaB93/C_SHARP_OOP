@@ -24,14 +24,11 @@ namespace ACM.BL
                 lastName = value;
             }
         }
-
-        // Use this syntax when you dont need to add extra code to get and set
         public string FirstName { get; set; }
-
         public string EmailAddress { get; set; }
-
-        // propg snippet to make the setter private so nothing else can change the property
         public int CustomerId { get; private set; }
+        // Composition 
+        public List<Address>AddressList { get; set; } 
 
         // Spec wanted to have a fullname 
         // No backing field as we dont need storage, its using it for last and first name anyway
@@ -52,8 +49,8 @@ namespace ACM.BL
             }
         }
 
-        // Constructor - no params = default
-        public Customer()
+        // Constructor calls the parameterised constructor 
+        public Customer() : this(0)
         {
 
         }
@@ -61,8 +58,9 @@ namespace ACM.BL
         // Consructor - with params 
         public Customer(int customerId)
         {
-            // this means the instance of the class
             this.CustomerId = customerId;
+            // Give us an instance instead of giving us a null, will be empty to used later
+            AddressList = new List<Address>();
         }
 
         // validate to say thet the last name and email are required
