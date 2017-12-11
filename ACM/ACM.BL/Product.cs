@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ACM.BL
 {
-    public class Product
+    public class Product : EntityBase
     {
         // properties
         public Decimal? CurrentPrice { get; set; }
@@ -24,7 +24,7 @@ namespace ACM.BL
 
         // Methods
 
-        public bool Validate()
+        public override bool Validate()
         {
             var isValid = true;
 
