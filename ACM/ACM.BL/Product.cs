@@ -12,7 +12,13 @@ namespace ACM.BL
         public Decimal? CurrentPrice { get; set; }
         public int ProductId { get; private set; }
         public string ProductDescription { get; set; }
-        public string ProductName { get; set; }
+        public string _ProductName;
+
+        public string ProductName
+        {
+            get { return _ProductName; }
+            set { _ProductName = value; }
+        }
 
         // Constructors
         public Product() { }

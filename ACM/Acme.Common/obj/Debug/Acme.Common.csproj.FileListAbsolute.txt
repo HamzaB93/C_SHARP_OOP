@@ -1,0 +1,5 @@
+D:\Personal Development\OOP Fundamentals In CSharp\ACM\Acme.Common\bin\Debug\Acme.Common.dll
+D:\Personal Development\OOP Fundamentals In CSharp\ACM\Acme.Common\bin\Debug\Acme.Common.pdb
+D:\Personal Development\OOP Fundamentals In CSharp\ACM\Acme.Common\obj\Debug\Acme.Common.csprojResolveAssemblyReference.cache
+D:\Personal Development\OOP Fundamentals In CSharp\ACM\Acme.Common\obj\Debug\Acme.Common.dll
+D:\Personal Development\OOP Fundamentals In CSharp\ACM\Acme.Common\obj\Debug\Acme.Common.pdb
