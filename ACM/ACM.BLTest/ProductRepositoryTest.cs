@@ -8,7 +8,7 @@ namespace ACM.BLTest
     public class ProductRepositoryTest
     {
         [TestMethod]
-        public void RetreiveExisting()
+        public void RetreiveTest()
         {
             // Arrange
             var productRepository = new ProductRepository();

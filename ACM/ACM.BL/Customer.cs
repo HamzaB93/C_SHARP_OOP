@@ -10,7 +10,7 @@ namespace ACM.BL
     {
         // member belongs to the type itself, rather than the instance
         public static int InstanceCount { get; set; }
-
+        public int CustomerType { get; set; }
         private string lastName;
         public string LastName
         {
@@ -74,6 +74,11 @@ namespace ACM.BL
                 isValid = false;
 
             return isValid;
+        }
+
+        public override string ToString()
+        {
+            return FullName;
         }
     }
 }

@@ -14,6 +14,12 @@ namespace ACM.BL
             // Collaboration
             Product product = new Product(productId);
 
+            //product.ToString();
+            Object myObject = new Object();
+            
+            Console.WriteLine("Object: " + myObject.ToString());
+            Console.WriteLine("Product: " + product.ToString());
+
             if (productId == 2 )
             {
                 product.ProductName = "Sunflowers";
