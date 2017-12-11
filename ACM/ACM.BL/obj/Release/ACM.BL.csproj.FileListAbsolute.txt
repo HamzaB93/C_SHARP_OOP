@@ -2,3 +2,4 @@ D:\Personal Development\OOP Fundamentals In CSharp\ACM\ACM.BL\bin\Release\ACM.BL
 D:\Personal Development\OOP Fundamentals In CSharp\ACM\ACM.BL\bin\Release\ACM.BL.pdb
 D:\Personal Development\OOP Fundamentals In CSharp\ACM\ACM.BL\obj\Release\ACM.BL.dll
 D:\Personal Development\OOP Fundamentals In CSharp\ACM\ACM.BL\obj\Release\ACM.BL.pdb
+D:\Personal Development\OOP Fundamentals In CSharp\ACM\ACM.BL\obj\Release\ACM.BL.csprojResolveAssemblyReference.cache
