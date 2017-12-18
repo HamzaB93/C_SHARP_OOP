@@ -1,0 +1,8 @@
+D:\Personal Development\OOP Fundamentals In CSharp\ACM\Acme.CommonTest\bin\Release\Acme.CommonTest.dll
+D:\Personal Development\OOP Fundamentals In CSharp\ACM\Acme.CommonTest\bin\Release\Acme.CommonTest.pdb
+D:\Personal Development\OOP Fundamentals In CSharp\ACM\Acme.CommonTest\bin\Release\Acme.Common.dll
+D:\Personal Development\OOP Fundamentals In CSharp\ACM\Acme.CommonTest\bin\Release\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+D:\Personal Development\OOP Fundamentals In CSharp\ACM\Acme.CommonTest\bin\Release\Acme.Common.pdb
+D:\Personal Development\OOP Fundamentals In CSharp\ACM\Acme.CommonTest\obj\Release\Acme.CommonTest.csprojResolveAssemblyReference.cache
+D:\Personal Development\OOP Fundamentals In CSharp\ACM\Acme.CommonTest\obj\Release\Acme.CommonTest.dll
+D:\Personal Development\OOP Fundamentals In CSharp\ACM\Acme.CommonTest\obj\Release\Acme.CommonTest.pdb
