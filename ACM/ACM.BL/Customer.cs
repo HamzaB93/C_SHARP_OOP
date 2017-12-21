@@ -3,10 +3,11 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Acme.Common;
 
 namespace ACM.BL
 {
-    public class Customer
+    public class Customer : EntityBase, Logabble
     {
         // member belongs to the type itself, rather than the instance
         public static int InstanceCount { get; set; }
@@ -64,7 +65,7 @@ namespace ACM.BL
         }
 
         // validate to say thet the last name and email are required
-        public bool Validate()
+        public override bool Validate()
         {
             var isValid = true;
 
@@ -80,5 +81,15 @@ namespace ACM.BL
         {
             return FullName;
         }
+
+        public string Log()
+        {
+            var logString = this.CustomerId + ": " +
+                            this.FullName + " " +
+                            "Email: " + this.EmailAddress + " " +
+                            "Status: " + this.EntityState.ToString();
+            return logString;
+        }
+
     }
 }
